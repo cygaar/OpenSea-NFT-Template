@@ -1,0 +1,4 @@
+@openzeppelin/=lib/openzeppelin-contracts/
+forge-std/=lib/forge-std/src/
+operator-filter-registry/=lib/operator-filter-registry/
+erc721a/=lib/ERC721A/
