@@ -2,7 +2,9 @@
 
 With the new OpenSea royalty policies, it may be necessary for new NFT contracts to implement a marketplace filtering solution. The template in this repo
 utilizes the [OpenSea operator-filterer library](https://github.com/ProjectOpenSea/operator-filter-registry) which allows contract owners to register
-a list of blocked operators. This repo includes templates for both OpenZeppelin's ERC721 and Chiru-Labs' ERC721A implementations. Both sample templates
+a list of blocked operators.
+
+This repo includes templates for both OpenZeppelin's ERC721 and Chiru-Labs' ERC721A implementations. Both sample templates
 use a blank blacklist to start (the `address(0)` parameter in the constructor). If you would like to use OpenSea's default list, you can either
 import their DefaultOperatorFilterer or pass in `address(0x3cc6CddA760b79bAfa08dF41ECFA224f810dCeB6)` into the constructor.
 
