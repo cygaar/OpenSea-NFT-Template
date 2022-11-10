@@ -1,6 +1,6 @@
 ## OpenSea NFT Template
 
-With the new OpenSea royalty policies, it may be necessary for new NFT contracts to implement a marketplace filtering solution. The template in this repo
+With the new [OpenSea royalty policies](https://twitter.com/opensea/status/1590466349683576832), it may be necessary for new NFT contracts to implement a marketplace filtering solution. The template in this repo
 utilizes the [OpenSea operator-filterer library](https://github.com/ProjectOpenSea/operator-filter-registry) which allows contract owners to register
 a list of blocked operators.
 
