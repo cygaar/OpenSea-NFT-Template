@@ -8,7 +8,9 @@ import "operator-filter-registry/src/OperatorFilterer.sol";
 contract SampleNFT721 is ERC721, Ownable, OperatorFilterer {
     constructor() ERC721("SampleNFT", "SAMPLE") OperatorFilterer(address(0), false) {}
 
-    /* Add your minting logic here */
+    /* Add minting logic here */
+
+    /* Add metadata logic here */
 
     function transferFrom(address from, address to, uint256 tokenId) public override onlyAllowedOperator(from) {
         super.transferFrom(from, to, tokenId);
